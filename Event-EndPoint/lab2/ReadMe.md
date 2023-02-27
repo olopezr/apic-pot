@@ -1,5 +1,6 @@
 
   [Return to main EEM lab page](../ReadMe.md#lab-abstracts)
+  
   # IBM Cloud Pak for Integration - Flight Landing Events Simulator
 
   In this lab, students will go through steps on how to simulate flight landing events, and consume the events using Kafka Client programs. <br>
@@ -119,7 +120,7 @@
   #### Kafka user Credentials and jks password - setdbparms.txt configuration
 
   5\. Repeat the process to create a configuration objet for the Kafka user Credentials, using the following values, and click **Create**
-  
+
   **Note:** Use the SCRAM credentials and truststore password you obtained for connecting to Event Streams in Lab1
 
   ```
