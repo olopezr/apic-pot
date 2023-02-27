@@ -30,4 +30,4 @@ IBM API Connect has several out of the box personas. Some of these personas will
 |---------|-------------|
 | [GraphQL Proxy API](GraphQL/ReadMe.md)       | **Creating a GraphQL Proxy API:**  In this lab, we will explore how to define GraphQL APIs that proxy to a backend GraphQL server.<br><br>**Prequisite:** None.<br><br>**Primary personas**:  Shavon (API Developer) and Andre (Application Developer)
 |---------|-------------|
-| [Event Endpoint Experience](Event-EndPoint/ReadMe.md)       | **Integration with AsyncAPI's Event Endpoint Experience:**  Show to create an Async API in IBM API Connect Manager, Produce events to IBM Event Streams using IBM App Connect Toolkit Flow, and finally run varies Consumers to read the events
+| [Event Endpoint Experience](Event-EndPoint/ReadMe.md)       | **Integration with AsyncAPI's - Event Endpoint Experience:**  Create an Async API in IBM API Connect Manager, Produce events to IBM Event Streams using IBM App Connect Toolkit Flow, and finally run varies Consumers to read the events<br/><br>**Prequisite:** None.<br><br>**Primary personas**:  Shavon (API Developer) and Andre (Application Developer)

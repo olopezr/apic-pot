@@ -1,7 +1,7 @@
 ## Multi-Style Integration with IBM Cloud Pak for Integration Event Endpoint Experience
 Get hands on building API and Event driven flows in this day in the life experience integrating with Async APIs
 
-[Return to lab section page](../index.md#lab-sections)
+[Return to main APIC lab page](../ReadMe.md#lab-abstracts)
 
 # IBM Cloud Pak for Integration - IBM API Connect AsyncAPI Labs
 
@@ -19,10 +19,10 @@ Architecture Diagram below <br>
 
 |  Subject                            | Description                                            |                                                               
 |-------------------------|------------------------------------------------------------------------------------------------------------|
-| [Lab 1](lab1/ReadMe.md)       |In this lab you will, <br>a) Create Kafka Topic in IBM Event Streams<br>b) Create a connection to the Kafka cluster <br>c) Create a AsyncAPI in IBM API Connect Management Portal <br>d) Create a Product in IBM API Connect Management Portal<br>e) Publish the Product & AsyncApi to API Connect Developer Portal and IBM Event Gateway. <br>f) Subscribe to the AsyncApi from API Connect Developer Portal. 
+| [Lab 1](lab1/ReadMe.md)       |In this lab you will, <br>a) Create Kafka Topic in IBM Event Streams<br>b) Create a connection to the Kafka cluster <br>c) Create a AsyncAPI in IBM API Connect Management Portal <br>d) Create a Product in IBM API Connect Management Portal<br>e) Publish the Product & AsyncApi to API Connect Developer Portal and IBM Event Gateway. <br>f) Subscribe to the AsyncApi from API Connect Developer Portal.
 |-------------------------|------------------------------------------------------------------------------------------------------------|
 | [Lab 2](lab2/ReadMe.md)       |In this lab you will, <br>a) Use IBM App Connect Toolkit and import Flight Landing Simulator Project Interchange <br>b) Review the Flight landing simulator flow, and modify Topic name, kafka policy's, and bootstrap url <br>c) ReBuild the bar file and deploy the bar file to IBM App Connect Dashboard.
 |-------------------------|------------------------------------------------------------------------------------------------------------|
-| [Lab 3](lab3/ReadMe.md)       |In this lab you will run kafka clients to consume the Flight landing events being produced in lab2.
+| [Lab 3](lab3/ReadMe.md)       |In this lab you will run kafka clients to consume the Flight landing events being produced in lab2, and exposed thru API Connect Event Gateway.
 
-[Return to lab section page](../index.md#lab-sections)
+[Return to main APIC lab page](../ReadMe.md#lab-abstracts)

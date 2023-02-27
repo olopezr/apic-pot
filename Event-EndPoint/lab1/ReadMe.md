@@ -360,12 +360,12 @@ Copy and Save the Key (ClientId), and the Secret into Notepad before closing thi
 
 We will now need to obtain Event Gateway bootstrap certificate, to be used by the Kafka Consumer programs. <br/>
 
-1\.First we will need to get the ocp login for our account.  Sign in to the OCP cluster provided by instructor and use the credentials you were assigned.</br>
+1\. First we will need to get the ocp login for our account.  Sign in to the OCP cluster provided by instructor and use the credentials you were assigned.</br>
 From the OCP console in the upper right click the the drop down and select Copy Login.
 
 ![](../images/ocp1.png)
 
-2\.You will see a new tab. Click **Display Token**.<br/>
+2\. You will see a new tab. Click **Display Token**.<br/>
 
 ![](../images/ocp2.png)
 You will see a *oc command* like the following.
@@ -377,12 +377,12 @@ oc login --token=sha256~xxxx --server=https://xxxx-coc-cluster:32167
 ```
 
 
-3\.Copy the *oc command* line, and paste it in a terminal window to logon to OpenShift CLI. <br/>
+3\. Copy the *oc command* line, and paste it in a terminal window to logon to OpenShift CLI. <br/>
 If prompted, type 'y' to allow use unsecure connections<br>
 
 ![](../images/ocp3.png)
 
-4\.Now run the following commands to obtain the Event Gateway bootstrap url and server certificate.<br>
+4\. Now run the following commands to obtain the Event Gateway bootstrap url and server certificate.<br>
 
 ```
 cd ~/Downloads
@@ -397,7 +397,7 @@ echo -n | openssl s_client -connect $BOOTSTRAP_HOST:443 -servername $BOOTSTRAP_H
 
 **Copy the value of the BOOTSTRAP_HOST variable to Notepad**.
 
-5\.Run also the following commands to generate a P12 and JKS file with the server certificate<br>
+5\. Run also the following commands to generate a P12 and JKS file with the server certificate<br>
 
 ```
 
@@ -418,7 +418,7 @@ echo -n | openssl s_client -connect $BOOTSTRAP_HOST:443 -servername $BOOTSTRAP_H
 
 **Important**: <br>
 The BOOTSTRAP_HOST url, and bootstrap.p12 will be used in kafka-console-consumer.sh program. <br>
-The $BOOTSTRAP_HOST url, and bootstrap.jks will be used in java client application. <br>
+The BOOTSTRAP_HOST url, and bootstrap.jks will be used in java client application. <br>
 <br>
 
 
