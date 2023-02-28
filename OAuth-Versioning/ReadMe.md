@@ -86,7 +86,7 @@ URL.
 
 ![alt text][pic11]
 
-5\. Enter **App Registry** for the **Title**, `https://thinkibm-services.mybluemix.net/auth` for the **Url**, and **App Registry** for the **Display name**.  Click **Save**.
+5\. Enter **App Registry** for the **Title**, `https://httpbin.org/get` for the **Url**, and **App Registry** for the **Display name**.  Click **Save**.
 
 ![alt text][pic12]
 
